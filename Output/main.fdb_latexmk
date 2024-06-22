@@ -1,0 +1,25 @@
+# Fdb version 4
+["pdflatex"] 1719037260.11302 "/Users/gotouyuuta/Desktop/discussion_nanolab_co/main.tex" "Output/main.pdf" "main" 1719037260.47234 2
+  "/Users/gotouyuuta/Desktop/discussion_nanolab_co/main.tex" 1719037259.25978 20172 ae85a1e2f2d632387a095abe3b62b417 ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1601931149 46845 3b58f70c6e861a13d927bff09d35ecbc ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/everyhook/everyhook.sty" 1417130005 5531 6783cc7ca14ebcec881a109a07e02d11 ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/jlreq/jlreq-helpers.sty" 1707868109 21198 4561cb0e83239e0adc8e4f204ae00bdf ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/jlreq/jlreq.cls" 1708117615 290095 f69cfb655680baf9aeb165ff5ecfdc94 ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1710447889 29918 d08e4795c0778dfb000e82d9225c6ce2 ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty" 1710447889 6565 0b340a7e9bf9e07ae19f3e617f5e364a ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty" 1710447889 4674 6210c671686aebd688a59108f03c2182 ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/nag/nag-l2tabu.cfg" 1274228588 7633 a41632614a92dd522918e41a3b780a40 ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/nag/nag-orthodox.cfg" 1202841285 1469 7d22b63e3d3989eea7b63602dd8de79f ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/nag/nag.sty" 1322955403 14182 062a686afa2d58447e49360be4df373b ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/plautopatch/plautopatch.sty" 1638912219 9764 9e7131a5dee55e036bdbf4bec62f076f ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/svn-prov/svn-prov.sty" 1272330018 6852 44ea8d7e58290cde708a34ebf3953571 ""
+  "/usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf" 1710714342 41663 c82a74d8036de408d74af2c8ae75c7e5 ""
+  "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1717756544 8222907 98eca228795e87ea3ffe9e5428d724a6 ""
+  "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
+  "Output/main.aux" 1719037260.11244 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "main.tex" 1719037259.25978 20172 ae85a1e2f2d632387a095abe3b62b417 ""
+  (generated)
+  "Output/main.aux"
+  "Output/main.log"
+  "Output/main.pdf"
+  (rewritten before read)

@@ -1,0 +1,256 @@
+\RequirePackage{plautopatch}
+\RequirePackage[l2tabu, orthodox]{nag}
+
+\documentclass[platex,dvipdfmx]{jlreq}			% for platex
+% \documentclass[uplatex,dvipdfmx]{jlreq}		% for uplatex
+\usepackage{graphicx}
+\usepackage{bxtexlogo}
+\usepackage{udline}
+\usepackage{caption} 
+
+% Customize the caption font
+\captionsetup{
+    font={normalsize},  % Set the font size to normal
+    labelfont={normalsize},    % Set the label font size to normal
+    textfont={normalsize},     % Set the text font size to normal
+    justification=centering, % Center the caption
+}
+
+\usepackage[backend=biber,style=chem-acs]{biblatex} % Load the biblatex package
+\addbibresource{reference.bib} % Add the .bib file
+
+\usepackage{titling} % Load the titling package
+% Adjust the title position
+\setlength{\droptitle}{-2.5cm} % Adjust this value as needed
+
+\renewcommand{\figurename}{Fig.}
+\renewcommand{\tablename}{Table}
+
+\usepackage{float}
+
+\title{酸化グラフェンアシストシリコン気相エッチングにおけるシート面内構造依存性の評価}
+
+\author{機能構築学研究室 修士2回 後藤雄太}
+\date{2024年06月28日}
+\begin{document}
+\maketitle
+
+\section*{\ul{Introduction}}
+グラファイトからグラフェンの分離が2004年に実証されて以来，グラフェンはその優れた材料特性からトランジスタやガスセンサー，潤滑剤などへの応用が期待されている．
+しかし，単層かつ高品位なグラフェンを大量生産することは技術的に難しく，実用化に向けた低コスト・高効率なグラフェン作製プロセスの開発が求められている．
+このグラフェンの生産方法として，グラファイトを酸化および，剥離して得られる酸化グラフェン(Graphene Oxide: GO)(Fig.\ref{fig:schematic_model}(a))を還元する手法が注目されてきた．
+GOを還元する手法としては，熱還元や化学還元，電気化学還元などがあるが，低消費エネルギーかつ，毒性の高い薬品(e.g. ヒドラジン)を用いない還元方法として光還元が挙げられる．
+Tuらは波長 172 nmを有する真空紫外(Vacuum Ultra-Violet: VUV)光を高真空環境下でGOに照射することで，GOから酸素含有官能基(Oxygen-containing Functional Groups: OFGs)を除去することを可能とした．
+また，廣富らはGOを140 ${}^\circ$Cで加熱しながらVUV光照射によって還元することで，より欠陥の少ない酸化グラフェン還元体(reduced Graphene Oxide: rGO)を作製することに成功している．\\
+\indent
+近年では，GOはグラフェン作製のための前駆体であるだけでなく，機能性材料として応用が進められている．
+窪田らはGOをシリコン基板上に担持し，エッチャントに浸漬させるとGOで覆われたシリコンが優先的に溶解する触媒エッチングを提案した．
+これはGOが触媒として過酸化水素や溶存酸素といった酸化剤の還元を促進することに起因している．
+一方，これまでにも，GOだけでなくさまざまな触媒を用いた半導体ウェットエッチングが報告されてきた．
+特に，貴金属を用いたエッチング(Metal-assisted chemical etching: Macetch)はウェットエッチングにも拘らず，高い異方性を有する半導体微細構造を作製することが可能であるため，ドライエッチングに代わる半導体微細加工技術として注目を集めてきた(Fig.\ref{fig:schematic_model}(b))．
+しかし， Macetchの欠点として，貴金属が高価であること，そして残留金属が半導体に深い準位を形成し，デバイス性能に悪影響を与える可能性があることが挙げられる．
+それに対して，GOは簡易なプロセスで作製可能であり，また，VUV光での除去が容易である．
+従来のGOを用いたエッチングでは，これまでに酸化剤に硝酸を使用することでエッチングの高速化や，エッチングメカニズムの解明が行われてきた．
+それにもかかわらず，発生するガスによってGOが半導体基板からエッチャント中に剥離してしまうため，大面積を均一に加工することが困難であり，新たな手法の開発が求められていた．
+窪田らはエッチャントを加熱することで蒸気にし，それをGO担持シリコン基板に暴露することで，GOの剥離を抑制することに成功した(Fig.\ref{fig:schematic_model}(c))．\\
+\indent
+本研究では，この気相エッチングのメカニズムおよび律速過程を解明することを試みる．
+GOおよびVUV光還元から得られたrGOが異なるシート面内構造を有することを利用して，構造欠陥がエッチング反応に与える影響を明らかにする．
+
+\begin{figure}
+    \centering
+    \includegraphics[width=150mm]{figures/figure1.png}
+    \caption{A schematic image of (a) Graphene Oxide, (b) the mechanism of Macetch (left), and (c) the vapor etching process (left). SEM images of silicon processed by Macetch or GO-assisted etching are shown in (b) and (c) (both right), respectively.}
+    \label{fig:schematic_model}
+\end{figure}
+
+\section*{\ul{Experiment 1. Characterization of GO and rGO}}
+
+\subsection*{\ul{Purpose of this experiment}}
+シート面内構造の異なるGOをエッチング挙動の比較のために複数作製する．
+GOならびに室温でのVUV光照射還元によって得られるrGO，そして140 ${}^\circ$Cで加熱しながらVUV光照射照射還元を行うことで得られるrGO\_140の評価をすることで，GO還元体の作製に成功したか確認する．
+
+\subsection*{\ul{Experimental procedure}}
+\begin{enumerate}
+    \item 1 $\times$ 1 cm$^2$ Si (boron-doped p-type (100), 1 - 30 $\Omega\cdot$cm) substrates or Si substrate covered with a thermal oxide layer (boron-doped p-type (100), 90 nm SiO$_2$, 0.1 $\Omega\cdot$cm) were ultrasonically cleaned by acetone, ethanol, and Ultra Pure Water (UPW) for 30 min respectively and then cleaned by VUV (Xe) light irradiation for 20 min.
+    \item GO (fabricated by chemically exfoliation method, a.k.a Hummers' method ) dispersion was spread onto the substrates by spin-coating (500 rpm for 15 s and then 2000 rpm for 150 s).
+    \item The height of the GO sheets was observed by AFM (Atomic Force Microscope) and GO sheets were characterized by XPS (X-ray Photoelectron Spectroscopy) and Raman spectroscopy.
+    \item The substrate with GO sheets was reduced by irradiation of VUV (Xe) light in a high vacuum ($<$ 10$^{-3}$ Pa) at room temperature or 140 ${}^\circ$C for 64 min.
+    \item The height of the rGO or rGO\_140 sheets was observed by AFM and they were characterized by XPS and Raman spectroscopy as well.
+\end{enumerate}
+
+\subsection*{\ul{Results and discussion}}
+
+\subsubsection*{\ul{AFM}}
+Fig.\ref{fig:AFM}はそれぞれ酸化膜付きシリコン基板に担持した(a) GO, (b) rGO, (c) rGO\_140のAFM像である．
+GOの厚さは約1.2 nmほどであり，VUV光照射によって得られたrGO，rGO\_140の厚さはその半分の0.6 nmほどと減少していた．
+これはVUV光照射によってGOシート上に存在するOFGが除去されたためと推測できる．
+140 ${}^\circ$Cでの加熱を併用したrGO\_140ではOFGだけでなく，吸着水の除去も進行すると考えられるが，rGOと比較して，さらにその厚さが減少するということは観察されなかった．
+Pristineなグラフェンの厚さが0.34 nm程度であることから，VUV光照射では全てのOFGや吸着水を除去することはできなかったことが本結果から示唆された．
+
+\begin{figure}
+    \centering
+    \includegraphics[width=150mm]{figures/figure2.png}
+    \caption{AFM topographic images and cross-sectional profiles along the lines of (a) GO, (b) rGO, and (c) rGO\_140 on SiO$_2$ substrates.}
+    \label{fig:AFM}
+\end{figure}
+
+\subsubsection*{\ul{XPS}}
+Fig.\ref{fig:XPS}は各GOのC 1sスペクトルを示す ((a) GO, (b) rGO, (c) rGO\_140)．
+VUV光照射前後でのOFGの種類とその割合の変化を調べるため，C 1sスペクトルのピークを6つの成分で分離した．
+6つのピークはそれぞれ，C=C (284.4 eV, Full Width Half Maximum (FWHM) = 1.50 eV)，C-C (285.0 eV, FWHM = 1.36 eV)，C-OH (286.2 eV, FWHM = 1.46 eV), C-O-C (286.9 eV, FWHM = 1.24 eV), C=O (287.9 eV, FWHM = 1.57 eV), COOH (289.1 eV), FWHM = 1.41 eVとした．
+Table1にそれぞれ分離したピークの面積比を示す．
+
+\begin{table}[H]
+    \centering
+    \caption{$R_{\mathrm{O/C}}$ (unit: \%) of GO, rGO, and rGO\_140.}
+    \label{tab:hogehoge}
+    \begin{tabular}{|c|c|c|c|c|c|c|c|}
+        \hline
+        ~        & $P_{\mathrm{C=C}}$ & $P_{\mathrm{C-C}}$ & $P_{\mathrm{C-OH}}$ & $P_{\mathrm{C-O-C}}$ & $P_{\mathrm{C=O}}$ & $P_{\mathrm{COOH}}$ & $R_{\mathrm{O/C}}$ \\ \hline
+        GO       & 15.54              & 38.26              & 9.92                & 19.24                & 13.74              & 3.30                & 39.9 \\ \hline
+        rGO      & 20.27              & 45.58              & 20.81               & 2.10                 & 6.73               & 4.51                & 37.6 \\ \hline
+        rGO\_140 & 38.85              & 35.53              & 15.14               & 1.27                 & 6.28               & 2.93                & 27.9 \\ \hline
+    \end{tabular}
+\end{table}
+  
+
+このそれぞれの分離されたピークのピーク面積比($P_i$)から計算されるO/C比 $R_{\mathrm{O/C}}$ 比を以下の式から計算した．
+\begin{displaymath}
+    R_{\mathrm{O/C}} = \frac{P_{\mathrm{C-OH}} + \frac{1}{2}P_{\mathrm{C-O-C}} + P_{\mathrm{C=O}} + 2P_{\mathrm{COOH}}}{P_{\mathrm{C=C}} + P_{\mathrm{C-C}} + P_{\mathrm{C-OH}} + P_{\mathrm{C-O-C}} + P_{\mathrm{C=O}} + P_{\mathrm{COOH}}}
+\end{displaymath}
+
+VUV光照射によって$P_{\mathrm{C-O-C}}$が著しく減少したことがわかる．
+一方で，$P_{\mathrm{C-OH}}$が増加していることがわかる．
+これはエポキシ基が光子を吸収し，活性となり，隣接C原子上の$\alpha$-H原子と反応してヒドロキシ基を形成するためである．
+
+\begin{figure}
+    \centering
+    \includegraphics[width=80mm]{figures/fig_equation1.png}
+    \label{fig:equation1}
+\end{figure}
+
+また，エポキシ基が吸着水と反応して，ヒドロキシ基を形成する過程も存在する．
+
+\begin{figure}
+    \centering
+    \includegraphics[width=60mm]{figures/fig_equation2.png}
+    \label{fig:equation2}
+\end{figure}
+
+上記の反応では酸素原子は除去されていないが，これは酸素の除去がヒドロキシ基やカルボニル基の解離によるものと推測される．\\
+\indent
+Kha Tuらは，GOを熱還元した際に286.7 eVのピークが消失せず，ある程度のOFGが残存していることを報告している．
+彼らは286.7 eVのピークがヒドロキシ基，エーテル，エポキシ基で構成されているC-O結合に由来するとし，還元後も残存していたピークがエッジ部のsp$^2$結合のC-O-C(エーテル)に起因していると推測している．
+本実験では，Kha Tuらの条件とは異なり，286.2 eVにC-OH，286.9 eVにC-O-Cを割り当てているが，今回の結果からエッジ部にsp$^2$結合のC-O-C(エーテル)が存在する可能性があることがわかった．
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=60mm]{figures/figure3.png}
+    \caption{XPS C 1s spectra of (a) GO, (b) rGO, (c) rGO\_140.}
+    \label{fig:XPS}
+\end{figure}
+
+\subsubsection*{\ul{micro Raman spectroscopy}}
+Fig.\ref{fig:Raman}は各GOのラマンスペクトルを示す ((a) GO, (b) rGO, (c) rGO\_140)．
+1340 cm$^{-1}$付近のピークはDピーク，1574 cm$^{-1}$付近のピークはGピークと呼ばれている．
+Dピークは逆空間Brillouin zoneのK点でのA$_{\mathrm{1g}}$ breathingモードによる一次散乱である．
+Dピークはグラフェン結晶中のエッジやsp$^3$炭素などの欠陥により六員環の対称性が乱れることで活性化する．
+これに対して，Gピークは逆空間Brillouin zoneの$\Gamma$点でのE$_{\mathrm{2g}}$ フォノンによる一次散乱である．
+すなわち，sp$^2$炭素ペアの伸張に起因している．
+1620 cm$^{-1}$には欠陥によって誘発されるもう一つのピークが存在し，これはD'ピークと呼ばれている．
+スコッチテープから剥離して得られた(多層)グラフェンでは，Gピークが1574 cm$^{-1}$付近に現れていることがわかった(破線) (Fig.\ref{fig:Raman} (a))．
+また，DピークがGピークに対して極めて弱く，グラフェン中には欠陥が少ないことが示唆された．
+一方，GOのスペクトルでは，Dピークが1340 cm$^{-1}$付近に顕著に現れ，そしてGピークが高波数側である1604 cm$^{-1}$にシフトしていた(破線ドット)．
+このGピークはGとD'の混合ピークであると上記の議論から推測できる．
+これらの結果から，化学剥離によって作製したGOでは，OFGやsp$^3$-Cなどの欠陥が導入され，ハニカム構造が破壊されたことがわかった．\\
+\indent
+rGO，rGO\_140では，VUV光還元によってGピークが1604 cm$^{-1}$から1594 cm$^{-1}$付近へとレッドシフトしていることがわかる　
+このシフトはD'ピークに対するGピークの割合の増加を意味しており，VUV照射によって共役結合が再構築されたことが示唆された．
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=100mm]{figures/figure4.png}
+    \caption{Raman spectra of (a) GO, (b) rGO, (c) rGO\_140.}
+    \label{fig:Raman}
+\end{figure}
+
+\subsubsection*{\ul{Conclusion}}
+化学剥離法およびVUV光照射を用いることで，シート面内の構造の異なるGOを作製することが可能であることが明らかとなった．
+また，VUV光照射によってGOの電気伝導度が向上したという報告もあり，光照射がGOの還元，すなわちsp$^2$ドメインを修復するのに有用であることが明らかとなった．
+
+\section*{\ul{Experiment 2. Vapor etching of GO/rGO-coated silicon}}
+
+\subsection*{\ul{Purpose of this experiment}}
+上記のGO，rGO，rGO\_140を用いてエッチングを行うことでGOシート面内にの構造がエッチング挙動に与える影響を明らかにする．
+そして，GOアシストシリコンエッチング反応の律速過程を同定することで，エッチング速度の高速化や，高アスペクト比の達成を実現する．
+本実験では，マイクロコンタクトプリンティング (Microcontact Printing: \textmu CP)と呼ばれるパターニング手法を用いて，GOシートのサイズおよび位置制御を行い，画一的にエッチング挙動について評価する．
+\textmu CPではシクロオレフィンポリマー (Cyclo Olefin Polymer: COP)を用いる (Fig.\ref{fig:COP} (a))．
+COPはその表面にVUV光を照射することで，大気中の励起した活性酸素種との反応により，疎水性から親水性へと表面改質が進行するだけでなく，エッチング反応が進行する．
+このCOPフィルムをスタンプとして利用することで，簡易的な\textmu CPを試みる．
+
+\subsection*{\ul{Experimental procedure}}
+\begin{enumerate}
+    \item 2 $\times$ 2 cm$^2$ Si (boron-doped p-type (100), 1 - 30 $\Omega\cdot$cm) substrates or Si substrates covered with a thermal oxide layer (boron-doped p-type (100), 90 nm SiO$_2$, 0.1 $\Omega\cdot$cm) were ultrasonically cleaned by acetone, ethanol, and UPW for 30 min respectively and then cleaned by VUV (Xe) light irradiation for 20 min.
+    \item Cyclo Olefin Polymer (COP) films were cut into 2 $\times$ 2 cm$^2$ (Fig.\ref{fig:COP} (a)).
+    \item COP films were irradiated by VUV light via a photomask under 10$^3$ Pa dry air environment for 30 min to form a circle-pattern with a diameter 10 \textmu m. 
+    \item GO dispersion was pulverized for 6 hours to uniform the sheet sizes of GO to less than some \textmu m.
+    \item The GO dispersion was deposited onto the COP film by spin-coating (500 rpm for 15 s and then 2000 rpm for 150 s).
+    \item The COP film with GO was pushed against the cleaned silicon or silicon dioxide substrate with a load of 400 N for 1 h to transfer the GO circle pattern on the substrate. (These processes are shown in Fig.\ref{fig:COP} (b))
+    \item The PFA container for etching was washed with acetone (sonicated for 30 min), a solution containing dil. HCl (heated at 80 ${}^\circ$C for more than 30 min), and UPW (sonicated for 30 min).
+    \item The small PFA cpntainer with the etchant which is the mixture of HF 5 mL (50 wt\%, for the semiconductor industry, Morita Chemical Industry Corp.) and H$_2$O$_2$ 100 \textmu L (30 wt\%, analytical grade, Fuji Film Wako Pure Chemical Corp.) was sealed in the large PFA container, and heated at 60 ${}^\circ$C for longer than 90 min so that the etchant temperature remained at 50 ${}^\circ$C.
+    \item The silicon substrate with the circle patterning of GO, rGO, or rGO\_140 was sealed in the PFA container and kept at 60 ${}^\circ$C for 16 h.
+    \item After etching, the surface of the silicon substrate was observed by 3D-Laser microscope.
+    \item Additionally, the substrate was cleaved and washed with UPW to observe the surface and cross-section by Field Emission-type Scannig Electron Microscope (FE-SEM).
+\end{enumerate}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=120mm]{figures/figure5.png}
+    \caption{(a) An image of the chemical structure of COP and (b) a schematic illustration of the microcontact patterning process using COP films.}
+    \label{fig:COP}
+\end{figure}
+
+\subsection*{\ul{Results and discussion}}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=150mm]{figures/figure6.png}
+    \caption{AFM topographic images and cross-sectional profiles along the lines of (a) a COP film after VUV light irradiation, (b) and (c) patterned GO sheets on a SiO$_2$ substrate.}
+    \label{fig:COP_AFM}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=165mm]{figures/figure7.png}
+    \caption{3D laser microscopic topographic images and cross-sectional profiles along the black lines of etched silicon with (a) GO, (b) rGO, (c) rGO\_140 at 50 ${}^\circ$C for 16 h. The relationship between the samples and the etching depth at 50 ${}^\circ$C for 16 h is shown in (d).}
+    \label{fig:Laser}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=150mm]{figures/figure8.png}
+    \caption{3D laser microscopic topographic images and cross-sectional profiles along the black lines of etched silicon with (a-1) GO, (a-2) rGO, (a-3) rGO\_140 at 60 ${}^\circ$C and (b-1) GO, (b-2) rGO, (b-3) rGO\_140 at 70 ${}^\circ$C for 16 h. The relationship between the temperature and the etching depth for the different samples for 16 h is shown in (d).}
+    \label{fig:Etching_temp}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=100mm]{figures/figure9.png}
+    \caption{3D laser microscopic topographic images and cross-sectional profiles along the black lines of etched silicon with (a-1) GO, (a-2) rGO, (a-3) rGO\_140 at 60 ${}^\circ$C and (b-1) GO, (b-2) rGO, (b-3) rGO\_140 at 70 ${}^\circ$C for 16 h. The relationship between the temperature and the etching depth for the different samples for 16 h is shown in (d).}
+    \label{fig:Schematic_mechanism}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=175mm]{figures/figure10.png}
+    \caption{SEM images.}
+    \label{fig:SEM}
+\end{figure}
+
+
+
+これは\LaTeX{}で文書を作成する方法についての例です。例えば、文献を引用する場合\supercite{tanaka2020}や\cite{suzuki2018}です。
+\printbibliography
+
+\end{document}
