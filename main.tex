@@ -46,6 +46,7 @@ Tuらは波長 172 nmを有する真空紫外(Vacuum Ultra-Violet: VUV)光を高
 近年では，GOはグラフェン作製のための前駆体であるだけでなく，機能性材料として応用が進められている．
 窪田らはGOをシリコン基板上に担持し，エッチャントに浸漬させるとGOで覆われたシリコンが優先的に溶解する触媒エッチングを提案した．
 これはGOが触媒として過酸化水素や溶存酸素といった酸化剤の還元を促進することに起因している．
+GOのエッジや粒界,空孔といった欠陥が酸化剤を吸着するため，酸化剤還元が促進されると窪田らは考察しており，また，液相の場合は酸化剤の還元反応が律速過程であることが明らかとなった．
 一方，これまでにも，GOだけでなくさまざまな触媒を用いた半導体ウェットエッチングが報告されてきた．
 特に，貴金属を用いたエッチング(Metal-assisted chemical etching: Macetch)はウェットエッチングにも拘らず，高い異方性を有する半導体微細構造を作製することが可能であるため，ドライエッチングに代わる半導体微細加工技術として注目を集めてきた(Fig.\ref{fig:schematic_model}(b))．
 しかし， Macetchの欠点として，貴金属が高価であること，そして残留金属が半導体に深い準位を形成し，デバイス性能に悪影響を与える可能性があることが挙げられる．
@@ -59,7 +60,7 @@ GOおよびVUV光還元から得られたrGOが異なるシート面内構造を
 
 \begin{figure}
     \centering
-    \includegraphics[width=150mm]{figures/figure1.png}
+    \includegraphics[width=155mm]{figures/figure1.png}
     \caption{A schematic image of (a) Graphene Oxide, (b) the mechanism of Macetch (left), and (c) the vapor etching process (left). SEM images of silicon processed by Macetch or GO-assisted etching are shown in (b) and (c) (both right), respectively.}
     \label{fig:schematic_model}
 \end{figure}
@@ -67,7 +68,7 @@ GOおよびVUV光還元から得られたrGOが異なるシート面内構造を
 \section*{\ul{Experiment 1. Characterization of GO and rGO}}
 
 \subsection*{\ul{Purpose of this experiment}}
-シート面内構造の異なるGOをエッチング挙動の比較のために複数作製する．
+酸化度およびシート面内構造の異なるGOをエッチング挙動の比較のために複数作製する．
 GOならびに室温でのVUV光照射還元によって得られるrGO，そして140 ${}^\circ$Cで加熱しながらVUV光照射照射還元を行うことで得られるrGO\_140の評価をすることで，GO還元体の作製に成功したか確認する．
 
 \subsection*{\ul{Experimental procedure}}
@@ -179,12 +180,16 @@ rGO，rGO\_140では，VUV光還元によってGピークが1604 cm$^{-1}$から
 化学剥離法およびVUV光照射を用いることで，シート面内の構造の異なるGOを作製することが可能であることが明らかとなった．
 また，VUV光照射によってGOの電気伝導度が向上したという報告もあり，光照射がGOの還元，すなわちsp$^2$ドメインを修復するのに有用であることが明らかとなった．
 
+\newpage
 \section*{\ul{Experiment 2. Vapor etching of GO/rGO-coated silicon}}
 
 \subsection*{\ul{Purpose of this experiment}}
-上記のGO，rGO，rGO\_140を用いてエッチングを行うことでGOシート面内にの構造がエッチング挙動に与える影響を明らかにする．
-そして，GOアシストシリコンエッチング反応の律速過程を同定することで，エッチング速度の高速化や，高アスペクト比の達成を実現する．
-本実験では，マイクロコンタクトプリンティング (Microcontact Printing: \textmu CP)と呼ばれるパターニング手法を用いて，GOシートのサイズおよび位置制御を行い，画一的にエッチング挙動について評価する．
+上記のGO，rGO，rGO\_140を用いてエッチングを行うことでGOシート面内の構造がエッチング挙動に与える影響を明らかにする．
+そして，GOアシストシリコンエッチング反応の律速過程を同定することで，エッチング速度の高速化や，高アスペクト比の達成の実現を目標とする．
+本研究で作製したGOはシート毎に微視的な構造が異なるだけでなく，そのサイズが不均一である(Fig.\ref{fig:AFM}).
+窪田らはGOシートのサイズが小さいほどエッチング速度が向上するという結果を示しているため，本実験ではシートサイズのバラつきを解消しなければならない．
+また、単なるスピンコーティングでは，基板上のGOが不均一に分布し，凝集体を形成する可能性があるため，位置の制御が望ましい．
+そこで，本実験では，マイクロコンタクトプリンティング (Microcontact Printing: \textmu CP)と呼ばれるパターニング手法を用いて，GOシートのサイズおよび位置制御を行い，画一的にエッチング挙動について評価する．
 \textmu CPではシクロオレフィンポリマー (Cyclo Olefin Polymer: COP)を用いる (Fig.\ref{fig:COP} (a))．
 COPはその表面にVUV光を照射することで，大気中の励起した活性酸素種との反応により，疎水性から親水性へと表面改質が進行するだけでなく，エッチング反応が進行する．
 このCOPフィルムをスタンプとして利用することで，簡易的な\textmu CPを試みる．
@@ -192,7 +197,7 @@ COPはその表面にVUV光を照射することで，大気中の励起した�
 \subsection*{\ul{Experimental procedure}}
 \begin{enumerate}
     \item 2 $\times$ 2 cm$^2$ Si (boron-doped p-type (100), 1 - 30 $\Omega\cdot$cm) substrates or Si substrates covered with a thermal oxide layer (boron-doped p-type (100), 90 nm SiO$_2$, 0.1 $\Omega\cdot$cm) were ultrasonically cleaned by acetone, ethanol, and UPW for 30 min respectively and then cleaned by VUV (Xe) light irradiation for 20 min.
-    \item Cyclo Olefin Polymer (COP) films were cut into 2 $\times$ 2 cm$^2$ (Fig.\ref{fig:COP} (a)).
+    \item Cyclo Olefin Polymer (COP) films (ZF14-188, ZeonorFilm, Zeon Inc.) were cut into 2 $\times$ 2 cm$^2$ (Fig.\ref{fig:COP} (a)).
     \item COP films were irradiated by VUV light via a photomask under 10$^3$ Pa dry air environment for 30 min to form a circle-pattern with a diameter 10 \textmu m. 
     \item GO dispersion was pulverized for 6 hours to uniform the sheet sizes of GO to less than some \textmu m.
     \item The GO dispersion was deposited onto the COP film by spin-coating (500 rpm for 15 s and then 2000 rpm for 150 s).
@@ -213,12 +218,40 @@ COPはその表面にVUV光を照射することで，大気中の励起した�
 
 \subsection*{\ul{Results and discussion}}
 
+Fig.\ref{fig:COP_AFM}(a)は，VUV光照射後のCOPフィルムのAFM像を示している．
+VUV光によって，COPフィルムの照射部がフォトマスクの円形パターンと同じ幅でエッチングされていることがわかる．
+このエッチング反応は2段階の反応に分けられる．
+まず，COPフィルムの表面が活性酸素種により酸化され，カルボン酸やカルボニル基，ヒドロキシ基が生成される．
+そして，表面の酸化層がCO$_2$，CO，H$_2$Oまで酸化され，揮発脱離，すなわちエッチングが進行する．
+Fig.\ref{fig:COP_AFM}(b), (c)は，VUV光照射後のCOPフィルム上にGOをスピンコートしたのちにSiO$_2$上にスタンプした後のAFM像である．
+スタンプ後も直径が10 \textmu mの円形パターンが形成されていることもあれば (Fig.\ref{fig:COP_AFM}(b))，Fig.\ref{fig:COP_AFM}(c)のように円形が崩れ，直径が10 \textmu mよりも大きなパターンが得られることもあった．
+これはCOPフィルム上にGO分散液をスピンコーティングする際に，GOが均一にCOP上に分散していなかった，もしくはスタンプ中にSiO$_2$へのGOの転写が適切に行われなかったことが考えられる．
+SiO$_2$上に転写されたGOの高さは平均して数 nmとなっており単層(およそ1 nm)，もしくは数層重なったGOが混在して存在していることが明らかになった．
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=150mm]{figures/figure6.png}
     \caption{AFM topographic images and cross-sectional profiles along the lines of (a) a COP film after VUV light irradiation, (b) and (c) patterned GO sheets on a SiO$_2$ substrate.}
     \label{fig:COP_AFM}
 \end{figure}
+
+次に，フッ酸と過酸化水素からなるエッチャントを50 ${}^\circ$Cに加熱し，その蒸気をスタンプ後のGO担持シリコンに16時間，暴露させた．
+Fig.\ref{fig:Laser}(a)，(b)，(c)はそれぞれ，(a) GO, (b) rGO, (c) rGO\_140を担持したシリコンのエッチング後の高さプロファイルを示している．
+どの試料でもエッチングによって形成された凹凸の深さはおよそ300 nmから 500 nmであった．
+フッ酸によるシリコンの溶解反応は次式で表される．
+\begin{displaymath}
+    \mathrm{Si + 4HF_2^- + 2h^+ \rightarrow SiF_6^{2-} + 2HF + H_2 \uparrow}
+\end{displaymath}
+ここで，GOは酸化剤(H$_2$O$_2$)還元反応を促進し，シリコン表面の正孔濃度を増加させるため，GOに覆われていないシリコン部分(以降，ベアシリコンと呼ぶ)よりもシリコンの溶解反応が進行する．
+Fig.\ref{fig:Laser}(d)はGO，rGO，rGO\_140をそれぞれ用いて16時間，50 ${}^\circ$Cでエッチングを行った際に形成された凹凸の深さをまとめたものである．
+丸印は平均の深さを表しており，GOで約450 nm，rGOで約400 nm，そしてrGO\_140で約500 nmとなった．
+rGOやrGO\_140ではGOと比較して構造欠陥が修復されており，酸化剤還元によってシリコンに注入できる成功濃度も異なると推測される．
+それにも拘らず，各試料間でのエッチング速度の顕著な差は確認されなかった．
+ここで，
+
+
+
+
 
 \begin{figure}[H]
     \centering
@@ -244,7 +277,7 @@ COPはその表面にVUV光を照射することで，大気中の励起した�
 \begin{figure}[H]
     \centering
     \includegraphics[width=175mm]{figures/figure10.png}
-    \caption{SEM images.}
+    \caption{(a-1) A SEM image of the silicon substrate loaded with rGO\_140 after vapor-phase etching at 50 ${}^\circ$C for 16 h. (a-2) shows the higher magnification SEM image. Cross-sectional SEM images of the etched silicon loaded with (b-1) GO, (b-2) rGO, and (b-3) rGO\_140 at 50 ${}^\circ$C for 16 h.}
     \label{fig:SEM}
 \end{figure}
 
