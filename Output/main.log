@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2024.6.6)  22 JUN 2024 17:34
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2024.6.6)  27 JUN 2024 19:07
 entering extended mode
  restricted \write18 enabled.
 **main.tex
@@ -483,42 +483,42 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 )
 \@quotelevel=\count411
 \@quotereset=\count412
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 35.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 37.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-Package nag Info: Command \bf not defined, skipping amendment on input line 35.
-Package nag Info: Command \it not defined, skipping amendment on input line 35.
-Package nag Info: Command \rm not defined, skipping amendment on input line 35.
-Package nag Info: Command \sc not defined, skipping amendment on input line 35.
-Package nag Info: Command \sf not defined, skipping amendment on input line 35.
-Package nag Info: Command \sl not defined, skipping amendment on input line 35.
-Package nag Info: Command \tt not defined, skipping amendment on input line 35.
-Package nag Info: Command \frontmatter not defined, skipping amendment on input line 35.
-Package nag Info: Command \mainmatter not defined, skipping amendment on input line 35.
-Package nag Info: Command \backmatter not defined, skipping amendment on input line 35.
-Package nag Info: Command \RaggedLeft not defined, skipping amendment on input line 35.
-Package nag Info: Command \RaggedRight not defined, skipping amendment on input line 35.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+Package nag Info: Command \bf not defined, skipping amendment on input line 37.
+Package nag Info: Command \it not defined, skipping amendment on input line 37.
+Package nag Info: Command \rm not defined, skipping amendment on input line 37.
+Package nag Info: Command \sc not defined, skipping amendment on input line 37.
+Package nag Info: Command \sf not defined, skipping amendment on input line 37.
+Package nag Info: Command \sl not defined, skipping amendment on input line 37.
+Package nag Info: Command \tt not defined, skipping amendment on input line 37.
+Package nag Info: Command \frontmatter not defined, skipping amendment on input line 37.
+Package nag Info: Command \mainmatter not defined, skipping amendment on input line 37.
+Package nag Info: Command \backmatter not defined, skipping amendment on input line 37.
+Package nag Info: Command \RaggedLeft not defined, skipping amendment on input line 37.
+Package nag Info: Command \RaggedRight not defined, skipping amendment on input line 37.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -535,204 +535,230 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 35.
-Package biblatex Info: Reference segment=0 on input line 35.
-Package nag Info: Command \captionabove not defined, skipping amendment on input line 35.
-Package nag Info: Command \captionbelow not defined, skipping amendment on input line 35.
-Package nag Info: Command \hc@caption not defined, skipping amendment on input line 35.
-Package nag Info: Command \topcaption not defined, skipping amendment on input line 35.
+Package biblatex Info: Reference section=0 on input line 37.
+Package biblatex Info: Reference segment=0 on input line 37.
+Package nag Info: Command \captionabove not defined, skipping amendment on input line 37.
+Package nag Info: Command \captionbelow not defined, skipping amendment on input line 37.
+Package nag Info: Command \hc@caption not defined, skipping amendment on input line 37.
+Package nag Info: Command \topcaption not defined, skipping amendment on input line 37.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 17.0pt on input line 36.
+(Font)              scaled to size 17.0pt on input line 38.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 17.0pt on input line 36.
+(Font)              scaled to size 17.0pt on input line 38.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 12.0pt on input line 36.
+(Font)              scaled to size 12.0pt on input line 38.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 12.0pt on input line 36.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 36.
+(Font)              scaled to size 12.0pt on input line 38.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 38.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 36.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 38.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 36.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 38.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 36.
+(Font)              <12> on input line 38.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 36.
+(Font)              <8> on input line 38.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 36.
+(Font)              <6> on input line 38.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.0pt on input line 36.
+(Font)              scaled to size 8.0pt on input line 38.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 6.0pt on input line 36.
+(Font)              scaled to size 6.0pt on input line 38.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 14.0pt on input line 39.
+(Font)              scaled to size 14.0pt on input line 41.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 14.0pt on input line 39.
+(Font)              scaled to size 14.0pt on input line 41.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 14.0pt on input line 39.
+(Font)              scaled to size 14.0pt on input line 41.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 14.0pt on input line 39.
-LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 39.
+(Font)              scaled to size 14.0pt on input line 41.
+LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 41.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <14> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 39.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 41.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 14.0pt on input line 39.
+(Font)              scaled to size 14.0pt on input line 41.
 LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <14> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 39.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 41.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 14.0pt on input line 39.
+(Font)              scaled to size 14.0pt on input line 41.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 44.
+(Font)              <10> on input line 41.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 44.
+(Font)              <7> on input line 41.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 44.
+(Font)              <5> on input line 41.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 7.0pt on input line 44.
+(Font)              scaled to size 7.0pt on input line 41.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 5.0pt on input line 44.
+(Font)              scaled to size 5.0pt on input line 41.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 7.0pt on input line 41.
  [1
 
 ]
 File: figures/figure1.png Graphic file (type bmp)
 <figures/figure1.png>
 
-Overfull \hbox (1.01761pt too wide) in paragraph at lines 63--64
+Overfull \hbox (1.01761pt too wide) in paragraph at lines 66--67
  [][] 
  []
 
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 12.0pt on input line 71.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 12.0pt on input line 71.
-LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 71.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 12.0pt on input line 71.
-LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 71.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 12.0pt on input line 71.
 [2]
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 86.
+(Font)              scaled to size 12.0pt on input line 75.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 86.
-LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 86.
+(Font)              scaled to size 12.0pt on input line 75.
+LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <12> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 75.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 86.
-LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 86.
+(Font)              scaled to size 12.0pt on input line 75.
+LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <12> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 75.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 86.
+(Font)              scaled to size 12.0pt on input line 75.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 10.0pt on input line 90.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 10.0pt on input line 90.
+LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 90.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 10.0pt on input line 90.
+LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 90.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 10.0pt on input line 90.
+ [3]
 File: figures/figure2.png Graphic file (type bmp)
 <figures/figure2.png>
- [3]
+ [4]
 File: figures/fig_equation1.png Graphic file (type bmp)
 <figures/fig_equation1.png>
 
 
-Package nag Warning: \label in float, but not after \caption on input line 131.
+Package nag Warning: \label in float, but not after \caption on input line 135.
 
 
-Package nag Warning: \label in float, but not after \caption on input line 131.
-
-
-Package nag Warning: figure with no \caption on input line 132.
+Package nag Warning: \label in float, but not after \caption on input line 135.
 
 File: figures/fig_equation2.png Graphic file (type bmp)
 <figures/fig_equation2.png>
 
-Package nag Warning: \label in float, but not after \caption on input line 139.
+Package nag Warning: \label in float, but not after \caption on input line 143.
 
 
-Package nag Warning: \label in float, but not after \caption on input line 139.
+Package nag Warning: \label in float, but not after \caption on input line 143.
+
+File: figures/fig_equation3.png Graphic file (type bmp)
+<figures/fig_equation3.png>
+
+Package nag Warning: \label in float, but not after \caption on input line 152.
 
 
-Package nag Warning: figure with no \caption on input line 140.
+Package nag Warning: \label in float, but not after \caption on input line 152.
 
+File: figures/fig_equation4.png Graphic file (type bmp)
+<figures/fig_equation4.png>
+
+Package nag Warning: \label in float, but not after \caption on input line 158.
+
+
+Package nag Warning: \label in float, but not after \caption on input line 158.
+
+File: figures/fig_equation5.png Graphic file (type bmp)
+<figures/fig_equation5.png>
+
+Package nag Warning: \label in float, but not after \caption on input line 164.
+
+
+Package nag Warning: \label in float, but not after \caption on input line 164.
+
+[5]
 File: figures/figure3.png Graphic file (type bmp)
 <figures/figure3.png>
-[4] [5]
+ [6]
 File: figures/figure4.png Graphic file (type bmp)
 <figures/figure4.png>
- [6]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 192.
+ [7] [8]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 219.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [7]
+) [9]
 File: figures/figure5.png Graphic file (type bmp)
 <figures/figure5.png>
+ [10]
 File: figures/figure6.png Graphic file (type bmp)
 <figures/figure6.png>
- [8]
+ [11]
 File: figures/figure7.png Graphic file (type bmp)
 <figures/figure7.png>
 
-Overfull \hbox (29.47035pt too wide) in paragraph at lines 258--259
- [][] 
- []
-
-[9]
-File: figures/figure8.png Graphic file (type bmp)
-<figures/figure8.png>
- [10]
-Overfull \vbox (41.69485pt too high) has occurred while \output is active []
-
- [11]
-File: figures/figure9.png Graphic file (type bmp)
-<figures/figure9.png>
-File: figures/figure10.png Graphic file (type bmp)
-<figures/figure10.png>
-
-Overfull \hbox (57.92311pt too wide) in paragraph at lines 279--280
+Overfull \hbox (29.47035pt too wide) in paragraph at lines 289--290
  [][] 
  []
 
 [12]
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 7.0pt on input line 286.
-LaTeX Font Info:    Font shape `JT1/mc/m/it' in size <10> not available
-(Font)              Font shape `JT1/mc/m/n' tried instead on input line 287.
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 10.0pt on input line 287.
-LaTeX Font Info:    Font shape `JY1/mc/m/it' in size <10> not available
-(Font)              Font shape `JY1/mc/m/n' tried instead on input line 287.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 10.0pt on input line 287.
+File: figures/figure11.png Graphic file (type bmp)
+<figures/figure11.png>
+ [13] [14]
+File: figures/figure8.png Graphic file (type bmp)
+<figures/figure8.png>
+ [15]
+Overfull \vbox (13.99802pt too high) has occurred while \output is active []
+
+ [16]
+File: figures/figure10.png Graphic file (type bmp)
+<figures/figure10.png>
+
+Overfull \hbox (57.92311pt too wide) in paragraph at lines 371--372
+ [][] 
+ []
+
+[17]
+File: figures/appendix1.png Graphic file (type bmp)
+<figures/appendix1.png>
+ [18] [19]
 LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 287.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 412.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 287.
+(Font)              scaled to size 10.0pt on input line 412.
 LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 287.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 412.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 287.
+(Font)              scaled to size 10.0pt on input line 412.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 287.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 412.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 287.
+(Font)              scaled to size 10.0pt on input line 412.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 287.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 412.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 287.
-Package plautopatch Info: No additional packages loaded on input line 289.
+(Font)              scaled to size 10.0pt on input line 412.
+LaTeX Font Info:    Font shape `JT1/mc/m/it' in size <10> not available
+(Font)              Font shape `JT1/mc/m/n' tried instead on input line 412.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 10.0pt on input line 412.
+LaTeX Font Info:    Font shape `JY1/mc/m/it' in size <10> not available
+(Font)              Font shape `JY1/mc/m/n' tried instead on input line 412.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 10.0pt on input line 412.
+ [20]
+Package plautopatch Info: No additional packages loaded on input line 414.
 
 
-Package nag Warning: 6 complaints in total.
+Package nag Warning: 10 complaints in total.
 
-[13] (./main.aux)
+[21] (./main.aux)
  ***********
 pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2023-11-01> patch level 1
@@ -743,34 +769,34 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 14575 strings out of 474774
- 303175 string characters out of 5758802
- 1944032 words of memory out of 5000000
- 36770 multiletter control sequences out of 15000+600000
+ 14715 strings out of 474774
+ 309951 string characters out of 5758802
+ 1945032 words of memory out of 5000000
+ 36906 multiletter control sequences out of 15000+600000
  627438 words of font info for 109 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 81i,13n,103p,871b,1339s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 81i,13n,103p,3655b,1369s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.dvi (13 pages, 40516 bytes).
+Output written on main.dvi (21 pages, 61332 bytes).
 
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[46] biber:340> INFO - === 土  6月 22, 2024, 17:33:59
-[58] Biber.pm:419> INFO - Reading 'main.bcf'
-[116] Biber.pm:979> INFO - Found 2 citekeys in bib section 0
-[128] Biber.pm:4419> INFO - Processing section 0
-[135] Biber.pm:4610> INFO - Looking for bibtex file 'reference.bib' for section 0
-[136] bibtex.pm:1713> INFO - LaTeX decoding ...
-[139] bibtex.pm:1519> INFO - Found BibTeX data source 'reference.bib'
-[170] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[170] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[170] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[170] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[172] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[172] bbl.pm:661> INFO - Converting UTF-8 to TeX macros on output to .bbl
-[175] bbl.pm:763> INFO - Output to main.bbl
+[47] biber:340> INFO - === 木  6月 27, 2024, 19:07:05
+[59] Biber.pm:419> INFO - Reading 'main.bcf'
+[121] Biber.pm:979> INFO - Found 39 citekeys in bib section 0
+[133] Biber.pm:4419> INFO - Processing section 0
+[141] Biber.pm:4610> INFO - Looking for bibtex file 'reference.bib' for section 0
+[164] bibtex.pm:1713> INFO - LaTeX decoding ...
+[527] bibtex.pm:1519> INFO - Found BibTeX data source 'reference.bib'
+[875] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[875] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[875] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[875] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[902] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[902] bbl.pm:661> INFO - Converting UTF-8 to TeX macros on output to .bbl
+[981] bbl.pm:763> INFO - Output to main.bbl
 
 main.dvi -> main.pdf
-[1][2][3][4][5][6][7][8][9][10][11][12][13]
-25996456 bytes written
+[1][2][3][4][5][6][7][8][9][10][11][12][13][14][15][16][17][18][19][20][21]
+27110047 bytes written
 
