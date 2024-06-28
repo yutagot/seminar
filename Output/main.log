@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2024.6.6)  28 JUN 2024 10:20
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2024.6.6)  28 JUN 2024 11:54
 entering extended mode
  restricted \write18 enabled.
 **main.tex
@@ -777,26 +777,26 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  81i,13n,103p,3655b,1369s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.dvi (22 pages, 61852 bytes).
+Output written on main.dvi (22 pages, 61932 bytes).
 
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[55] biber:340> INFO - === 金  6月 28, 2024, 10:21:34
-[66] Biber.pm:419> INFO - Reading 'main.bcf'
-[131] Biber.pm:979> INFO - Found 40 citekeys in bib section 0
-[143] Biber.pm:4419> INFO - Processing section 0
-[152] Biber.pm:4610> INFO - Looking for bibtex file 'reference.bib' for section 0
-[176] bibtex.pm:1713> INFO - LaTeX decoding ...
-[612] bibtex.pm:1519> INFO - Found BibTeX data source 'reference.bib'
-[1152] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1152] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1152] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1152] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[1184] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[1184] bbl.pm:661> INFO - Converting UTF-8 to TeX macros on output to .bbl
-[1270] bbl.pm:763> INFO - Output to main.bbl
+[47] biber:340> INFO - === 金  6月 28, 2024, 11:55:20
+[58] Biber.pm:419> INFO - Reading 'main.bcf'
+[118] Biber.pm:979> INFO - Found 40 citekeys in bib section 0
+[130] Biber.pm:4419> INFO - Processing section 0
+[138] Biber.pm:4610> INFO - Looking for bibtex file 'reference.bib' for section 0
+[161] bibtex.pm:1713> INFO - LaTeX decoding ...
+[522] bibtex.pm:1519> INFO - Found BibTeX data source 'reference.bib'
+[894] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[894] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[894] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[894] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[923] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[923] bbl.pm:661> INFO - Converting UTF-8 to TeX macros on output to .bbl
+[1003] bbl.pm:763> INFO - Output to main.bbl
 
 main.dvi -> main.pdf
 [1][2][3][4][5][6][7][8][9][10][11][12][13][14][15][16][17][18][19][20][21][22]
-27111203 bytes written
+27110917 bytes written
 
